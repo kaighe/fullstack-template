@@ -1,0 +1,25 @@
+.note{
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+    padding-right: 35px;
+    margin: 5px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.note > img {
+    position: absolute;
+    height: 20px;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    opacity: 0.4;
+    transition: 0.1s opacity;
+}
+
+.note > img:hover {
+    opacity: 1;
+}

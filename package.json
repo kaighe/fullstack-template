@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "shared"
+    ],
+    "scripts": {
+        "dev-server": "npm run dev --workspace=apps/server",
+        "dev-client": "npm run dev --workspace=apps/client"
+    },
+    "dependencies": {
+        "@my-app/shared": "^1.0.0",
+        "@types/cookie-parser": "^1.4.10",
+        "@types/jsonwebtoken": "^9.0.10",
+        "cookie-parser": "^1.4.7",
+        "jsonwebtoken": "^9.0.2"
+    }
+}
