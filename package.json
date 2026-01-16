@@ -5,6 +5,9 @@
     ],
     "scripts": {
         "dev:server": "cd packages/server && npm run dev",
-        "dev:client": "cd packages/client && npm run dev"
+        "dev:client": "cd packages/client && npm run dev",
+        "build": "npm run build:server && npm run build:client",
+        "build:server": "cd packages/server && npm run build -- --outDir ../../dist/server",
+        "build:client": "cd packages/client && npm run build -- --outDir ../../dist/client"
     }
 }
