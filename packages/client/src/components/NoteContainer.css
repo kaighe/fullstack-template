@@ -1,0 +1,32 @@
+.note {
+    position: relative;
+    padding: 7px;
+    width: fit-content;
+    margin: 3px;
+    max-width: 400px;
+
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-right: calc(7px + 23px);
+
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.delete-note{
+    position: absolute;
+    right: 7px;
+    top: 8px;
+    width: 17px;
+
+    opacity: 0.6;
+    transition: opacity 0.2s, transform 0.07s;
+}
+
+.delete-note:hover {
+    opacity: 1;
+}
+
+.delete-note:active {
+    transform: scale(0.85);
+}

@@ -1,0 +1,23 @@
+#form-container{
+    display: flex;
+    width: min(250px, calc(100% - 100px));
+    padding: 15px;
+    flex-direction: column;
+
+    border: 1px solid black;
+}
+
+#login-error{
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 5px;
+    white-space: pre-wrap;
+
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+input{
+    margin-bottom: 5px;
+}

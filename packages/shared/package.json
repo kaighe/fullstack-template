@@ -1,0 +1,14 @@
+{
+    "name": "shared",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "exports": {
+        "./types": "./dist/types/index.js",
+        "./utils": "./dist/utils/index.js",
+        "./constants": "./dist/constants/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^25.0.9"
+    }
+}

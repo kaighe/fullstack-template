@@ -1,0 +1,17 @@
+.note-input {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(450px, calc(100% - 50px));
+    padding: 10px;
+    max-height: 10lh;
+
+    font-family: inherit;
+    font-size: 12pt;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    resize: none;
+}

@@ -1,0 +1,8 @@
+{
+    "watch": ["src"],
+    "ignore": ["src/**/*.spec.ts"],
+    "execMap": {
+        "ts": "tsc && node ./dist/index.js && echo"
+    },
+    "ext": "ts,js,json,d.ts,sql"
+}
