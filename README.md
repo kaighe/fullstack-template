@@ -1,1 +1,2 @@
-# this aint done yet go away
+# fullstack-template
+| *A quick fullstack monorepo to use as a starting point*
